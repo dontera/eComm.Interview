@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eComm.Interview.Data", "eComm.Interview.Data\eComm.Interview.Data.csproj", "{BF4324EC-A632-4E94-A691-2BD708ED54D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eComm.Interview.ConsoleApp", "eComm.Interview.Console\eComm.Interview.ConsoleApp.csproj", "{CFFD5840-7C3E-49E8-8AD8-E0D1A19AECEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4324EC-A632-4E94-A691-2BD708ED54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4324EC-A632-4E94-A691-2BD708ED54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4324EC-A632-4E94-A691-2BD708ED54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4324EC-A632-4E94-A691-2BD708ED54D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD5840-7C3E-49E8-8AD8-E0D1A19AECEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD5840-7C3E-49E8-8AD8-E0D1A19AECEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD5840-7C3E-49E8-8AD8-E0D1A19AECEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD5840-7C3E-49E8-8AD8-E0D1A19AECEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE7A0020-8D10-4ABA-B92B-316FD4FC1F14}
+	EndGlobalSection
+EndGlobal
