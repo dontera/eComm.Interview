@@ -74,6 +74,11 @@ namespace eComm.Interview.ConsoleApp
             LookupRating = Console.ReadLine();
             if (LookupRating == string.Empty)
                 LookupRating = null;
+            if (!int.TryParse(LookupRating, out var tmpintresult))
+            {
+                Console.WriteLine("Rating is not a valid integer - ignoring");
+                LookupRating = null;
+            }                
 
             Console.WriteLine("Input Work Key to lookup (press enter for default: null)");
             LookupWorkKey = Console.ReadLine();
